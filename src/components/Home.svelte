@@ -36,5 +36,5 @@ img:hover {
     <img src="{logo}" alt="Error">
 </a>
 <h6>Hecho en Svelte</h6>
-<a href="https://github.com">Repositorio</a>
+<a href="https://github.com/DDe3/authapp-frontend">Repositorio</a>
 
