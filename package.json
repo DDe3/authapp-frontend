@@ -1,0 +1,20 @@
+{
+  "name": "authapp-frontend",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^2.0.0",
+    "svelte": "^3.54.0",
+    "svelte-use-form": "^2.6.1",
+    "vite": "^4.0.0"
+  },
+  "dependencies": {
+    "svelte-forms": "^2.3.1"
+  }
+}
