@@ -15,6 +15,7 @@
     "vite": "^4.0.0"
   },
   "dependencies": {
-    "svelte-forms": "^2.3.1"
+    "svelte-forms": "^2.3.1",
+    "svelte-table": "^0.5.5"
   }
 }
