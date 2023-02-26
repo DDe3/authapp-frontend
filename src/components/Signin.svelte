@@ -15,7 +15,7 @@
     async function doRegister() {
         let user = { username : $name.value, password : $password.value}
         const res = await fetch(
-            "http://localhost:8081/apidistribuida/v1/clientes/register",
+            "http://localhost:8080/authapi/v1/usuarios/register",
             {
                 method: "POST",
                 headers: {

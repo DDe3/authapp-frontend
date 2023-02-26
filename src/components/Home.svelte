@@ -20,7 +20,7 @@
     async function doChangePassword() {
         let usuario = { username : $username.value, password : $password.value}
         const res = await fetch(
-            "http://localhost:8081/apidistribuida/v1/clientes/update-password",
+            "http://localhost:8080/authapi/v1/usuarios/update-password",
             {
                 method: "PUT",
                 headers: {

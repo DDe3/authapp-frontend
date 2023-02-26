@@ -8,7 +8,7 @@
 	let username
 	let result
 
-	fetch('http://localhost:8081/apidistribuida/v1/clientes/all')
+	fetch('http://localhost:8080/authapi/v1/usuarios/all')
 		.then(response => response.json())
 		.then(json => {
 		const data = json
@@ -25,7 +25,7 @@
 
 	async function doDelete() {
 		const res = await fetch(
-            `http://localhost:8081/apidistribuida/v1/clientes/${username}/delete`,
+            `http://localhost:8080/authapi/v1/usuarios/${username}/delete`,
             {
                 method: "PUT",
 				headers: {

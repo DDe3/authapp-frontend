@@ -12,7 +12,7 @@
 
     async function doLogin() {
         const res = await fetch(
-            "http://localhost:8081/apidistribuida/v1/clientes/authenticate",
+            "http://localhost:8080/authapi/v1/usuarios/authenticate",
             {
                 method: "POST",
                 headers: {
